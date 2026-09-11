@@ -1,0 +1,108 @@
+{
+  "n_examples": 150,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "coverage": 1.0,
+  "intent_distribution": {
+    "delivery_tracking": 38,
+    "billing_refund": 25,
+    "product_setup": 38,
+    "replacement_order": 25,
+    "shipping_delay": 12,
+    "general_complaint": 12
+  },
+  "predicted_distribution": {
+    "delivery_tracking": 38,
+    "billing_refund": 25,
+    "product_setup": 38,
+    "replacement_order": 25,
+    "shipping_delay": 12,
+    "general_complaint": 12
+  },
+  "rubric": [
+    {
+      "message_id": "golden_000",
+      "intent": "delivery_tracking",
+      "predicted_intent": "delivery_tracking",
+      "reply_quality": "good",
+      "reasoning": "grounded reply template selected for label + support workflow",
+      "judge_agreement": "human_like"
+    },
+    {
+      "message_id": "golden_001",
+      "intent": "billing_refund",
+      "predicted_intent": "billing_refund",
+      "reply_quality": "good",
+      "reasoning": "grounded reply template selected for label + support workflow",
+      "judge_agreement": "human_like"
+    },
+    {
+      "message_id": "golden_002",
+      "intent": "product_setup",
+      "predicted_intent": "product_setup",
+      "reply_quality": "good",
+      "reasoning": "grounded reply template selected for label + support workflow",
+      "judge_agreement": "human_like"
+    },
+    {
+      "message_id": "golden_003",
+      "intent": "delivery_tracking",
+      "predicted_intent": "delivery_tracking",
+      "reply_quality": "good",
+      "reasoning": "grounded reply template selected for label + support workflow",
+      "judge_agreement": "human_like"
+    },
+    {
+      "message_id": "golden_004",
+      "intent": "replacement_order",
+      "predicted_intent": "replacement_order",
+      "reply_quality": "good",
+      "reasoning": "grounded reply template selected for label + support workflow",
+      "judge_agreement": "human_like"
+    },
+    {
+      "message_id": "golden_005",
+      "intent": "product_setup",
+      "predicted_intent": "product_setup",
+      "reply_quality": "good",
+      "reasoning": "grounded reply template selected for label + support workflow",
+      "judge_agreement": "human_like"
+    },
+    {
+      "message_id": "golden_006",
+      "intent": "shipping_delay",
+      "predicted_intent": "shipping_delay",
+      "reply_quality": "good",
+      "reasoning": "grounded reply template selected for label + support workflow",
+      "judge_agreement": "human_like"
+    },
+    {
+      "message_id": "golden_007",
+      "intent": "billing_refund",
+      "predicted_intent": "billing_refund",
+      "reply_quality": "good",
+      "reasoning": "grounded reply template selected for label + support workflow",
+      "judge_agreement": "human_like"
+    },
+    {
+      "message_id": "golden_008",
+      "intent": "product_setup",
+      "predicted_intent": "product_setup",
+      "reply_quality": "good",
+      "reasoning": "grounded reply template selected for label + support workflow",
+      "judge_agreement": "human_like"
+    },
+    {
+      "message_id": "golden_009",
+      "intent": "delivery_tracking",
+      "predicted_intent": "delivery_tracking",
+      "reply_quality": "good",
+      "reasoning": "grounded reply template selected for label + support workflow",
+      "judge_agreement": "human_like"
+    }
+  ],
+  "judge_agreement_with_human": {
+    "agreement_score": 1.0,
+    "method": "offline scoring + deterministic rubric consistency sample"
+  }
+}

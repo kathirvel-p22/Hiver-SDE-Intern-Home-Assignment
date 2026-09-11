@@ -1,0 +1,20 @@
+[
+  {
+    "intent": "delivery_tracking",
+    "reply": "I understand you want the latest shipment information. I\u2019ll help you track the delivery and confirm the order status.",
+    "decision": "auto_handle",
+    "reason": "intent is clear and the issue can be efficiently handled by the support workflow"
+  },
+  {
+    "intent": "billing_refund",
+    "reply": "Thanks for flagging this. I\u2019m sorry about the billing confusion and I\u2019ll help review the charge and refund path.",
+    "decision": "escalate",
+    "reason": "billing or refund origin requires human verification before closure"
+  },
+  {
+    "intent": "product_setup",
+    "reply": "I\u2019m sorry the setup has been difficult. Please share the device details and I\u2019ll walk through the setup process step by step.",
+    "decision": "auto_handle",
+    "reason": "intent is clear and the issue can be efficiently handled by the support workflow"
+  }
+]
