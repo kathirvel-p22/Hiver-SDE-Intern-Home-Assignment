@@ -1,0 +1,11 @@
+tweet_id,brand,text,intent,reply,decision,reason
+sample_001,AppleSupport,"My package is late and tracking still has no update.",shipping_delay,"We are sorry your package is delayed. We will help track your order.",auto_handle,"Clear shipping issue with a known support template."
+sample_002,AppleSupport,"I was charged twice for my order and want a refund.",billing_refund,"We are sorry about the duplicate charge. We will review the billing refund path.",escalate,"Billing or refund require a human review path."
+sample_003,AppleSupport,"I need help setting up my new device.",product_setup,"We can help you set up the device step by step.",auto_handle,"Issue is clear and can be solved by a guided reply."
+sample_004,AppleSupport,"Where is my order? I need the delivery status.",delivery_tracking,"We can help you track the shipment and confirm the latest delivery status.",auto_handle,"Tracking request is clear and can be answered by the agent."
+sample_005,AppleSupport,"I received a broken replacement product.",replacement_order,"We are sorry your replacement item arrived damaged. We will help arrange the right support path.",auto_handle,"Replacement issue has a clear response template."
+sample_006,AppleSupport,"The app is terrible and I cannot access my account.",general_complaint,"We are sorry about the experience. We will help review your account access issue.",escalate,"Access and complaint signal needs human review."
+sample_007,AppleSupport,"My shipment was delayed for two weeks.",shipping_delay,"We understand the shipment delay is frustrating. We will check the latest delivery estimate.",auto_handle,"Shipping delay with a clear, low-risk route."
+sample_008,AppleSupport,"I have a duplicate charge and need a refund immediately.",billing_refund,"We are sorry about the duplicate charge. We will review the refund and billing record.",escalate,"Billing and refund path needs human verification."
+sample_009,AppleSupport,"Please help me install and connect the device.",product_setup,"We can guide you through device setup and connection.",auto_handle,"Setup issue can be solved by a guided reply."
+sample_010,AppleSupport,"Can you track my mobile order after shipment?",delivery_tracking,"We can help track the shipment and update the delivery status.",auto_handle,"Tracking request has a clear support workflow."
